@@ -302,6 +302,7 @@ button {
 }
 /* action & timer */
 main section.action {
+    width: 100%;
     background: linear-gradient(45deg, #EECFBA, #C5DDE8);
     border-top: 1px solid black;
     opacity: .75;
