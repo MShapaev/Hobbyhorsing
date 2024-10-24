@@ -437,6 +437,11 @@ section.action {
     background: #777;
 }
 
+.happy-birthday {
+    color: #f00;
+    -webkit-text-stroke: 1px #675e01;
+}
+
 /* catalog */
 .catalog section {
     overflow: hidden;

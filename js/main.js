@@ -275,7 +275,8 @@ function actionTimer(end) {
         delta = Math.floor(delta / 60);
         let hours = delta % 24;
         delta = Math.floor(delta / 24);
-        $('.actiontimer').html("<b>" + delta + "</b><span>" + grammatics(delta, 'день', 'дня', 'дней') +"</span><b>" + hours + "</b><span>" + grammatics(hours, 'час', 'часа', 'часов') + "</span><b>" + addZero(minutes) + "</b><span>" +grammatics(minutes, 'минута', 'минуты', 'минут') + "</span><b>" + addZero(seconds) + "</b><span>" + grammatics(seconds, 'секунда', 'секунды', 'секунд') + "</span>");
+        $('.actiontimer').html("<b>" + delta + "</b><span>" + grammatics(delta, 'день', 'дня', 'дней') +"</span><b>" + hours + "</b><span>" + grammatics(hours, 'час', 'часа', 'часов') + "</span><b>" + addZero(minutes) + "</b><span>" + grammatics(minutes, 'минута', 'минуты', 'минут'));
+        // + "</span><b>" + addZero(seconds) + "</b><span>" + grammatics(seconds, 'секунда', 'секунды', 'секунд') + "</span>");
     } else {
         $('.actiontimer').html("<b>0</b>дней<b>0</b>часов<b>00</b>минут<b>00</b><span>секунд</span>");
         //$('.action').remove();
